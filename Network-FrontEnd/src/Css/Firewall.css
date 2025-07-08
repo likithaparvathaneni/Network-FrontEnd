@@ -1,0 +1,40 @@
+.firewall-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  table {
+    width: 80%; /* Adjust the width as needed */
+    border-collapse: collapse;
+    margin: 0 auto; /* Center the table */
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center; /* Center the text */
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  .required {
+    color: red;
+    margin-left: 5px;
+  }
+  .error-message {
+    color: red;
+    display: block;
+  }
+  .success {
+    color: green;
+    display: block;
+  }
+  
